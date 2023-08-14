@@ -15,7 +15,7 @@
     <title>Benjamin's Coffee Shop</title>
 
     <link rel="stylesheet" href="/vendor/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="/pages/index.css" />
+    <link rel="stylesheet" type="text/css" href="./pages/index.css" />
     <link rel="icon" href="/Downloads/se_project_2_files/favicon.ico" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,13 +28,25 @@
     <div class="page">
       <header class="header">
         <nav class="nav">
-          <img src="./Images/logo_coffeeshop_dark.svg" alt="Coffeeshop logo" />
+          <img
+            src="./Images/logo_coffeeshop_dark.svg"
+            alt="Coffeeshop logo"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li><a href="" class="nav__link">Recipes</a></li>
+            <li><a href="" class="nav__link">Book a table</a></li>
+            <li><a href="" class="nav__link">Menu</a></li>
+            <li><a href="" class="nav__link">Contacts</a></li>
+          </ul>
         </nav>
-        <ul class="nav__links"></ul>
-        <li><a href="" class="nav__link">Recipes</a></li>
-        <li><a href="" class="nav__link">Book a table</table></a></li>
-        <li><a href="" class="nav__link">Menu</a></li>
-        <li><a href="" class="nav__link">Contacts</a></li>
+        <h1 class="header__title">
+          Specialty Coffee in the Triple Peaks library
+        </h1>
+        <p class="heather__description">
+          Welcome to our study zone! We've got the coffee to energize you and
+          the cozy vibes to help you get creative.
+        </p>
       </header>
       <main class="content">
         <section class="recipes"></section>
