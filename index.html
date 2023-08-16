@@ -1,99 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Welcome to our Coffee Shop! We offer a wide range of delicious coffee and treats."
-    />
-    <meta name="author" content="Benjamin Eyong" />
-    <meta
-      name="keywords"
-      content="coffee, coffee shop, espresso, cappuccino, latte, pastries, treats"
-    />
-    <title>Benjamin's Coffee Shop</title>
-
-    <link rel="stylesheet" href="/vendor/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="./pages/index.css" />
-    <link rel="icon" href="/Downloads/se_project_2_files/favicon.ico" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-  </head>
-  <body>
-    <div class="page">
-      <header class="header">
-        <nav class="nav">
-          <img
-            src="./Images/logo_coffeeshop_dark.svg"
-            alt="Coffeeshop logo"
-            class="nav__logo"
-          />
-          <ul class="nav__links">
-            <li><a href="" class="nav__link">Recipes</a></li>
-            <li><a href="" class="nav__link">Book a table</a></li>
-            <li><a href="" class="nav__link">Menu</a></li>
-            <li><a href="" class="nav__link">Contacts</a></li>
-          </ul>
-        </nav>
-        <h1 class="header__title">
-          <span class="header__span-acccent">Specialty Coffee</span> in the
-          Triple Peaks library
-        </h1>
-        <p class="header__description">
-          Welcome to our study zone! We've got the coffee to energize you and
-          the cozy vibes to help you get creative.
-        </p>
-        <div class="header__footer">
-          <div>
-            <p class="header__paragraph">Hours:</p>
-            <p class="header__paragraph">Weekday hours:</p>
-            <p class="header__paragraph">Weekend hours:</p>
-          </div>
-          <p class="header__paragraph">Address</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Welcome to our Coffee Shop! We offer a wide range of delicious coffee and treats." />
+  <meta name="author" content="Benjamin Eyong" />
+  <meta name="keywords" content="coffee, coffee shop, espresso, cappuccino, latte, pastries, treats" />
+  <title>Benjamin's Coffee Shop</title>
+  
+  <link rel="stylesheet" href="/vendor/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="./pages/index.css" />
+  <link rel="icon" href="/Downloads/se_project_2_files/favicon.ico" />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;1,400&display=swap" />
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <nav class="nav">
+        <img src="./Images/logo_coffeeshop_dark.svg" alt="Coffeeshop logo" class="nav__logo" />
+        <ul class="nav__links">
+          <li><a href="" class="nav__link">Recipes</a></li>
+          <li><a href="" class="nav__link">Book a table</a></li>
+          <li><a href="" class="nav__link">Menu</a></li>
+          <li><a href="" class="nav__link">Contacts</a></li>
+        </ul>
+      </nav>
+      <h1 class="header__title">
+        <span class="header__accent">Specialty Coffee</span> in the Triple Peaks library
+      </h1>
+      <p class="header__description">
+        Welcome to our study zone! We've got the coffee to energize you and the cozy vibes to help you get creative.
+      </p>
+      <div class="header__footer">
+        <div>
+          <p class="header__paragraph">Hours:</p>
+          <p class="header__paragraph">Weekday hours:</p>
+          <p class="header__paragraph">Weekend hours:</p>
         </div>
-      </header>
-      <main class="content">
-        <section class="recipes">
-          <h2 class="recipes__tittle">Recipes</h2>
-          <p class="recipes__subtitles">
-            Check out some recipes we've collected for your home-brewing
-            convenience
-          </p>
-          <div class="recipes__videos">
-            <div>
-              <iframe
-                src="https://www.youtube.com/embed/j6VlT_jUVPc"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-                class="recipes__iframe"
-              ></iframe>
-              <p class="recipes__video-caption">
-                <span>Areopress recipe</span><span>~5 min </span>
-              </p>
-            </div>
-            <div>
-              <iframe
-                src="https://www.youtube.com/embed/st571DYYTR8"
-                title="YouTube video player"
-                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                class="recipes__iframe"
-              ></iframe>
-              <p class="recipes__videos-caption">French press recipe ~15 min</p>
-            </div>
+        <p class="header__paragraph">Address</p>
+      </div>
+    </header>
+    <main class="content">
+      <section class="recipes">
+        <h2 class="recipes__title">Recipes</h2>
+        <p class="recipes__subtitle">
+          Check out some recipes we've collected for your home-brewing convenience
+        </p>
+        <div class="recipes__videos">
+          <div class="recipes__video">
+            <iframe src="" allowfullscreen class="recipes__iframe"></iframe>
+            <p class="recipes__video-caption">
+              <span>Areopress recipe</span><span>~5 min </span>
+            </p>
           </div>
-        </section>
-        <section class="reservation"></section>
-        <section class="menu"></section>
-        <section class="about"></section>
-      </main>
-      <footer class="footer"></footer>
-    </div>
-  </body>
+          <div class="recipes__video">
+            <iframe src="" allowfullscreen class="recipes__iframe"></iframe>
+            <p class="recipes__video-caption">French press recipe ~15 min</p>
+          </div>
+        </div>
+      </section>
+      <section class="reservation"></section>
+      <section class="menu"></section>
+      <section class="about"></section>
+    </main>
+    <footer class="footer"></footer>
+  </div>
+</body>
 </html>
+
