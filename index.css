@@ -15,19 +15,16 @@
   display: flex;
   flex-direction: column;
 }
-
 .nav {
   display: flex;
   justify-content: space-between;
 }
-
 .nav__logo {
   position: relative;
   left: -50px;
   width: 105px;
   height: 39px;
 }
-
 .nav__links {
   display: flex;
   padding: 0;
@@ -35,12 +32,10 @@
   list-style-type: none;
   gap: 20px;
 }
-
 .nav__link {
   color: #000;
   text-decoration: none;
 }
-
 .header__title {
   max-width: 729px;
   font-size: 60px;
@@ -49,40 +44,78 @@
   letter-spacing: -0.6px;
   font-weight: 500;
 }
-
 .header__description {
   max-width: 683px;
   font-size: 20px;
   line-height: 30px;
   margin: 20px 0 0;
 }
-
 .header__span-accent {
   display: block;
 }
-
 .header__footer {
   display: flex;
   justify-content: space-between;
   margin-top: auto;
 }
-
 .header__paragraph {
   margin: 0;
 }
-
 .recipes {
   padding: 100px 80px 215px;
 }
-
 .recipes__videos {
   display: flex;
   gap: 100px;
   justify-content: center;
 }
-
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
 }
 
+.reservation {
+  padding: 100px 0 120px;
+}
+
+.reservation__title {
+  margin: 0 0 80px;
+  text-align: center;
+}
+
+.reservation__form {
+  margin: 0 auto;
+}
+
+.form {
+  max-width: 385px;
+}
+
+.form__fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.form__label {
+  margin-bottom: 32px;
+  display: block;
+}
+.form__label_type_checkbox {
+  display: flex;
+  justify-content: center;
+}
+
+.form__input {
+  display: block;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.form__button {
+  width: 100%;
+  padding: 0;
+  margin-bottom: 32px;
+}
