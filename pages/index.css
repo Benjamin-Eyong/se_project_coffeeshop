@@ -81,10 +81,20 @@
 .reservation__title {
   margin: 0 0 80px;
   text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
 
 .reservation__form {
   margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 .form {
@@ -118,4 +128,12 @@
   width: 100%;
   padding: 0;
   margin-bottom: 32px;
+  font-family: Inter;
+  font-size: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.reservation__form button:hover {
+  opacity: 0.7;
 }
