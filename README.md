@@ -16,6 +16,6 @@ This is the second project of the Software Engineering program at TripleTen. It 
 - You need access to the internet
 - You need a computer.
 
-#### Plan on improving the project
+### Plan on improving the project
 - I plan on Including pictures, gifs, or screenshots that will explain the project features.
 Add your ideas here :)
