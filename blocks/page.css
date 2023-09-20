@@ -118,12 +118,19 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  padding-bottom: 16px;
 }
 
 .footer__social-icon {
 }
 
 .footer__social-link {
+  color: #c1c1c1;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer__social-link:hover {
+  color: #c1c1c1;
 }
 
 .footer__copyright {
@@ -135,3 +142,4 @@
   margin-top: 108px;
   margin-bottom: 60px;
 }
+
