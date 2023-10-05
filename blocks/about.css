@@ -16,6 +16,13 @@
   animation: pulsate 1.3s ease-in-out infinite;
 }
 
+.about__circle {
+  width: 426px;
+  height: 426px;
+  margin-top: 152px;
+  margin-left: 129px;
+}
+
 .about {
   background-color: #0a2850;
 }
@@ -26,6 +33,9 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  padding-left: 80px;
+  padding-top: 100px;
+  max-width: 251px;
 }
 
 .about__content {
@@ -34,4 +44,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  max-width: 660px;
+  padding-bottom: 173px;
+  padding-right: 80px;
 }
