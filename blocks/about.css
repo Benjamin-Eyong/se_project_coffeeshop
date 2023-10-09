@@ -16,20 +16,32 @@
   animation: pulsate 1.3s ease-in-out infinite;
 }
 
-.about__circle {
-  width: 426px;
-  height: 426px;
-  margin-top: 152px;
-  margin-left: 129px;
-}
-
 .about {
   background-color: #0a2850;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  gap: 120px;
+  z-index: 0;
+}
+
+.about__circle {
+  background-color: #2f80ed;
+  width: 495px;
+  height: 495px;
+  border-radius: 50%;
+  top: -121px;
+  left: -91px;
+  position: absolute;
+  z-index: -1;
 }
 
 .about__title {
   font-family: "Inter";
   font-style: normal;
+  color: #fff;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -47,4 +59,14 @@
   max-width: 660px;
   padding-bottom: 173px;
   padding-right: 80px;
+  z-index: 2;
+}
+
+.about__paragraph {
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+.about__paragraph:last-child {
+  margin-bottom: 0;
 }
