@@ -1,44 +1,53 @@
-.form {
-  max-width: 385px;
+.menu {
+  padding: 100px 0 100px;
+  background-color: #fff;
+  background-image: url(/images/background_menu.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.form__fieldset {
-  padding: 0;
-  margin: 0;
-  border: none;
+.menu__title {
+  text-align: center;
+  margin: 0 0 24px;
 }
 
-.form__label {
-  margin-bottom: 32px;
-  display: block;
+.menu__subtitle {
+  text-align: center;
+  margin: 0 0 100px;
 }
 
-.form__label_type_checkbox {
+.menu__cards {
   display: flex;
   justify-content: center;
-}
-
-.form__input {
-  display: block;
+  flex-wrap: wrap;
+  gap: 100px;
   padding: 0;
-  box-sizing: border-box;
-  width: 100%;
-  margin-top: 8px;
+  margin: 0;
+  list-style-type: none;
 }
 
-.form__button {
-  width: 100%;
+.card {
+  width: 540px;
+}
+
+.card__title {
+  margin: 0 0 32px;
+}
+
+.card__list {
   padding: 0;
-  margin-bottom: 32px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  opacity: 1;
-  transition: opacity 0.3s ease-in-out;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.card__list-item {
+  display: flex;
 }
 
-.form__button:hover {
-  opacity: 0.7;
+.card__list-divider {
+  border-bottom: 1px solid black;
+  flex-grow: 1;
 }
