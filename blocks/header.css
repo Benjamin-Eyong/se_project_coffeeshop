@@ -14,7 +14,7 @@
 }
 
 .header__title {
-  font-family: "Noto Serif";
+  font-family: "Inter", Arial, sans-serif;
   font-style: italic;
   font-weight: normal;
   line-height: 72px;
@@ -26,7 +26,7 @@
   color: #2f80ed;
   display: block;
   font-style: italic;
-  font-family: "Noto Serif";
+  font-family: "Inter", Arial, sans-serif;
   font-weight: normal;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .header__description {
-  font-family: "Noto Serif";
+  font-family: "Inter", Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 30px;
@@ -65,7 +65,7 @@
 }
 
 .header__paragraph {
-  font-family: "Inter";
+ font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: ;
   font-size: ;
