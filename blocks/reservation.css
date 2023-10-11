@@ -5,7 +5,7 @@
 }
 
 .reservation__title {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   margin: 0 0 80px;
@@ -16,7 +16,7 @@
 }
 
 .reservation__form {
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -33,7 +33,7 @@
 }
 
 .reservation__input {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -42,7 +42,7 @@
 }
 
 .reservation__button {
-  font-family: "Inter";
+   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
