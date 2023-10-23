@@ -7,8 +7,6 @@
   line-height: 20px;
 }
 
-}
-
 .card__list {
   padding: 0;
   margin: 0;
@@ -31,18 +29,8 @@
   line-height: 30px;
 }
 
-.card__list-item {
-  margin-top: 16px;
-}
-
 .card__list-item:last-child {
   margin-bottom: 0;
-}
-
-.card__list-item {
-  display: flex;
-  padding-bottom: 16px;
-  height: 16px;
 }
 
 .card__list-divider {
@@ -68,9 +56,4 @@
 }
 .card__list-item {
   display: flex;
-}
-
-.card__list-divider {
-  border-bottom: 1px solid black;
-  flex-grow: 1;
 }
