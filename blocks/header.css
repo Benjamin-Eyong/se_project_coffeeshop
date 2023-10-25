@@ -15,12 +15,11 @@
 
 .header__title {
   font-family: "Inter", Arial, sans-serif;
-  font-style: italic;
   font-weight: normal;
   line-height: 72px;
   font-size: 60px;
   max-width: 729px;
-  margin: 150px 0 0;
+  margin: 202px 0 0;
 }
 
 .header__span-accent {
@@ -29,10 +28,6 @@
   font-style: italic;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-weight: normal;
-}
-
-.header__accent {
-  color: #2f80ed;
 }
 
 .header__description {
