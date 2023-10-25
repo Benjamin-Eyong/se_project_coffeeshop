@@ -15,11 +15,12 @@
 
 .header__title {
   font-family: "Inter", Arial, sans-serif;
-  font-weight: normal;
+  font-weight: 500;
   line-height: 72px;
   font-size: 60px;
   max-width: 729px;
   margin: 202px 0 0;
+  letter-spacing: -0.6%;
 }
 
 .header__span-accent {
