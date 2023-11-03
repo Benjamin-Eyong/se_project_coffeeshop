@@ -29,11 +29,11 @@
 
 .about__circle {
   background-color: #2f80ed;
-  width: 495px;
-  height: 495px;
+  width: 426px;
+  height: 426px;
   border-radius: 50%;
-  top: -121px;
-  left: -91px;
+  top: -152px;
+  left: -129px;
   position: absolute;
   z-index: -1;
 }
@@ -56,14 +56,15 @@
   font-size: 20px;
   line-height: 30px;
   max-width: 660px;
+  padding-top: 119px;
   padding-bottom: 173px;
   padding-right: 80px;
   z-index: 2;
 }
 
 .about__paragraph {
-  padding-top: 0;
-  padding: 32px;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .about__paragraph:last-child {
