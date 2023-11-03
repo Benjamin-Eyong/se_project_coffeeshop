@@ -2,38 +2,30 @@
   padding: 100px 0 120px;
   background-image: url(../images/background_reservation.svg);
   background-color: #d9e7ff;
+  background-size: cover;
+  background-position: center;
 }
 
 .reservation__title {
- font-family: "Inter", Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   margin: 0 0 80px;
   font-size: 44px;
   text-align: center;
   line-height: 52px;
-  margin-bottom: 20px;
 }
 
 .reservation__form {
-   font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
   margin: 0 auto;
-  padding: 20px;
-  border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.8);
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
-.reservation__form button:hover {
+.reservation__form .button:hover {
   opacity: 0.7;
 }
 
 .reservation__input {
- font-family: "Inter", Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -42,7 +34,7 @@
 }
 
 .reservation__button {
-    font-family: "Inter", Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
