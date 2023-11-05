@@ -1,13 +1,13 @@
 .footer {
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   color: white;
+  gap: 16px;
   padding: 60px 102px 60px 80px;
   list-style-type: none;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  flex-direction: row;
-  gap: 16px;
 }
 
 .footer__content {
@@ -18,8 +18,9 @@
   width: 105px;
   color: white;
 }
+
 .footer__copyright {
- font-family: "Inter", Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -41,7 +42,7 @@
   padding-bottom: 20px;
 }
 
-.footer__list {
+.footer__social-link {
   padding-bottom: 20px;
   color: whitesmoke;
   display: flex;
@@ -51,8 +52,20 @@
   padding: 0;
 }
 
+.footer__list {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+  color: #c1c1c1;
+  transition: color 0.3s ease-in-out;
+  text-decoration: none;
+}
+
 .footer__list-item {
-   font-family: "Inter", Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -63,13 +76,6 @@
 .footer__social-icon {
 }
 
-.footer__social-link {
-  color: #c1c1c1;
-  transition: color 0.3s ease-in-out;
-  text-decoration: none;
-}
-
 .footer__social-link:hover {
   color: #c1c1c1;
 }
-
