@@ -25,6 +25,7 @@
   display: flex;
   gap: 120px;
   z-index: 0;
+  justify-content: space-between;
 }
 
 .about__circle {
